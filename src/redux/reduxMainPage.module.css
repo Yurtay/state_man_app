@@ -1,0 +1,10 @@
+.pre {
+  text-align: left;
+}
+.text_left {
+  text-align: left;
+  line-height: 1;
+}
+hr {
+  border: 1px solid brown;
+}

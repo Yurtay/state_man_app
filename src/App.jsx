@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "./App.css";
 import Button from "./components/button/button.jsx";
 import ReduxMainPage from "./redux/reduxMainPage.jsx";
 import ReduxToolkitMainPage from "./reduxToolkit/reduxToolkitMainPage.jsx";
