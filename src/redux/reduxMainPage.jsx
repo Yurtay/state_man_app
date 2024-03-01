@@ -182,7 +182,7 @@ const ReduxMainPage = () => {
         </div>
         <div className={classes.text_left}>
           <p>
-            <b>7. Если необходимо несколько состояний:</b>
+            <b>7 . Если необходимо несколько состояний:</b>
           </p>
           <p>- создаем еще один reducer и initial state для него</p>
           <p>
