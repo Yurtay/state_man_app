@@ -1,4 +1,11 @@
 import { numbReducer } from "./numbReducer";
-import { legacy_createStore as createStore } from "redux";
+import { combineReducers, legacy_createStore as createStore } from "redux";
+import { usersReducer } from "./usersReducer copy";
+import { composeWithDevTools } from "redux-devtools-extension";
 
-export const store = createStore(numbReducer);
+const rooReducer = combineReducers({
+  users: usersReducer,
+  numb: numbReducer,
+});
+
+export const store = createStore(rooReducer, composeWithDevTools());
